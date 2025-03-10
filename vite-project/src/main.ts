@@ -4,7 +4,7 @@ import { bootstrapCameraKit } from '@snap/camera-kit';
   try {
     console.log("🚀 Initializing Camera Kit...");
     
-    const apiToken = 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzQxMzI5MjgzLCJzdWIiOiJmN2RlYzZmYS03YmY5LTQxY2EtODhhNi1mNjI1ZjQzNGNjMGN-U1RBR0lOR35mOTJmMmViOC05OGE4LTQzNDEtODAxMS1kYTMzNTlhZjRkNjcifQ.6iReOi6yW-QLdiYvAZQHTg8SXOrUX3Uo--h0bK4PaZM';
+    const apiToken = 'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzQxNjA4MDQ3LCJzdWIiOiI0MTEwYmIwMy1jZGE3LTRmNTctYWVhZS0yYWFhNjZiNjE2ZDB-U1RBR0lOR35hZjA1OGFjYy03YWQ2LTRiY2UtOTE1ZS1jYjlhOWEyZGJhMTgifQ.cjC5sQ9wlP-xlpPWdw65j1W9D6dpeuH754qatmfsOTE';
     
     // Initialize Camera Kit
     const cameraKit = await bootstrapCameraKit({ apiToken });
@@ -31,8 +31,8 @@ import { bootstrapCameraKit } from '@snap/camera-kit';
     console.log("✅ Camera session started.");
 
     // Lens ID and Group ID
-    const lensId = '2566fb54-d7a0-4403-a07d-8c27d9c91286';
-    const lensGroupId = 'b4a54e5d-8d05-4f3e-974c-c76e3b91fe5f';
+    const lensId = 'd8ebdeff-1ab5-4a93-b389-ddd7d5964e79';
+    const lensGroupId = '72a177a7-1127-4821-ab56-ce6c9c24a9a1';
 
     // Load Lens with error handling
     console.log(`🎭 Loading Lens ID: ${lensId} from Group ID: ${lensGroupId}...`);
