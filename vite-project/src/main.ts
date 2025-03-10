@@ -32,7 +32,7 @@ import { bootstrapCameraKit } from '@snap/camera-kit';
 
     // Lens ID and Group ID
     const lensId = 'd8ebdeff-1ab5-4a93-b389-ddd7d5964e79';
-    const lensGroupId = '72a177a7-1127-4821-ab56-ce6c9c24a9a1';
+    const lensGroupId = 'b3e074a0-baf5-47cf-a17d-84ec5ed85c52';
 
     // Load Lens with error handling
     console.log(`🎭 Loading Lens ID: ${lensId} from Group ID: ${lensGroupId}...`);
