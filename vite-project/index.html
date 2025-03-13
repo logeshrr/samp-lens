@@ -1,13 +1,147 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
+    <title>Parcel Sandbox</title>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mindpixel</title>
+    <link rel="stylesheet" href="src/new.css" />
   </head>
+
   <body>
-   <canvas id = "canvas"></canvas>
+   
+    <div class="app">
+      <div class="container">
+        <div class="left-side-header">
+          <img
+            src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/logo.png?raw=true"
+          />
+          <h1 class="title">Experience the Future of Shopping with Virtual Try-On</h1>
+          <p>
+            At MINDPIXEL, we bring you an innovative Virtual Try-On solution that allows you to see how products look on you in real time before making a purchase. Say goodbye to guesswork and shop with confidence!on
+          </p>
+         
+        </div>
+        <img
+          src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/hero-graphic.png?raw=true"
+          class="hero"
+        />
+        <link rel="icon" href="data:," />
+        <!-- Hero Section !--->
+      </div>
+    </div>
+
+    <div class="page">
+      <div class="card-container">
+        <div class="boxHolder">
+          <div class="box">
+            <div class="box-div">
+              <img
+                class="box-images"
+                src="/tshirt-web.jpg"
+               
+                class="img"
+              />
+            </div>
+            <h3>HOODIE</h3>
+          </div>
+          <div class="box">
+            <div class="box-div">
+              <img
+              id="clickableImage"
+                class="clickableImage"
+                src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/card-logo-mark.png?raw=true"
+                class="img"
+              />
+            
+            </div>
+            <h3>T-SHIRT</h3>
+          </div>
+          <div class="box">
+            <div class="box-div">
+              <img
+              id="clickableImage2"
+                class="clickableImage"
+                src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/card-logo-mark.png?raw=true"
+                class="img"
+              />
+            </div>
+            <h3>CHUDI</h3>
+          </div>
+          <div class="box">
+            <div class="box-div">
+              <img
+              id="clickableImage3"
+                src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/card-logo-mark.png?raw=true"
+                class="img"
+              />
+            </div>
+            <h3>SAREE</h3>
+          </div>
+          <div class="box">
+            <div class="box-div">
+              <img
+                src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/card-logo-mark.png?raw=true"
+                class="img"
+              />
+            </div>
+            <h3>PANT</h3>
+          </div>
+          <div class="box">
+            <div class="box-div">
+              <img
+              src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/card-logo-mark.png?raw=true"
+                class="img"
+              />
+            </div>
+            <h3>SHORTS</h3>
+            <img />
+          </div>
+
+          <!-- Cards --->
+        </div>
+
+        <div class="container">
+          <canvas id="canvas" width="800" height="800"></canvas>
+        </div>
+			</div>
+		
+      <button id="backButton">Back</button>
+
+    
+
+    
+			<div class="display-inline">
+
+					<div class='footer-p'>
+						
+						MIND is dedicated to revolutionizing the shopping experience with cutting-edge technology.
+
+						</div>
+					
+						<div class='footer-p'>
+							Our Virtual Try-On solution is designed to provide customers with a seamless, fun, and confident way to shop online.
+
+Stay ahead of the trend with MIND!
+							</div>
+						</div>
+
+      <div class="footer">
+
+        <div class="container-footer">
+				
+          <img
+            class="footer-image"
+            src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/cta-bg.png?raw=true"
+          />
+          <div class="bottom-footer">
+            <img
+            class="footer-logo"
+            src="https://github.com/qualialabs/fed-challenge/blob/master/code/images/footer-logo.png?raw=true"
+          />
+        </div>
+        <!-- Footer !--->
+      </div>
+    </div>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
